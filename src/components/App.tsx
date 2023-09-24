@@ -18,9 +18,12 @@ const App = () => {
           global.metricsAreExpanded && "yOptionsExpanded"
         )}
       >
-        <Metric />
+        {/* <Metric />
         <Plot />
+        <LangList /> */}
         <LangList />
+        <Plot /><Metric />
+        
       </div>
     </div>
   );

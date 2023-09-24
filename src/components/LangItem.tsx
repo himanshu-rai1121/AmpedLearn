@@ -39,9 +39,9 @@ const LangItem: React.FC<LangItemProps> = memo(
       customTopics[customName] || customName.replace(/ /g, "-");
     const translation = translations[name];
     // TODO Disable link instead of inventing a tag.
-    const soTag = translation
-      ? translations[name].stackoverflow.split("|")[0]
-      : name.toLowerCase();
+    // const soTag = translation
+    //   ? translations[name].stackoverflow.split("|")[0]
+    //   : name.toLowerCase();
 
     return (
       <tr
@@ -89,7 +89,7 @@ const LangItem: React.FC<LangItemProps> = memo(
             >
               <span className="icon-trending-up"></span>
             </a>
-            <a
+            {/* <a
               className="icolink"
               target="__blank"
               href={`https://stackoverflow.com/questions/tagged/${encodeURIComponent(
@@ -98,7 +98,7 @@ const LangItem: React.FC<LangItemProps> = memo(
               title="Stack Overflow"
             >
               <span className="icon-stack-overflow"></span>
-            </a>
+            </a> */}
           </div>
         </td>
         <td className="change" title="Change in rank vs 1 year earlier">

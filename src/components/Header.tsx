@@ -44,7 +44,7 @@ const Header = () => {
     <div className="header">
       <div>
         <a
-          href="https://github.com/tjpalmer/languish"
+          href="https://github.com/himanshu-rai1121"
           className="github-corner"
           title="View source and project info"
         >
@@ -79,13 +79,13 @@ const Header = () => {
         </a>
       </div>
       <h1>
-        <a href=".">Languish</a>
+        <a href=".">Amped Learn</a>
       </h1>
       <h2>
         <div title="Current data from public GitHub projects">
           Programming Language Trends
         </div>
-        <div>
+        {/* <div>
           ... for more,{" "}
           <a
             href="https://www.youtube.com/channel/UCS4FAVeYW_IaZqAbqhlvxlA"
@@ -93,7 +93,7 @@ const Header = () => {
           >
             subscribe to Context Free
           </a>
-        </div>
+        </div> */}
       </h2>
       <div className="spread"></div>
       {showMessage && <div>Copied!</div>}
